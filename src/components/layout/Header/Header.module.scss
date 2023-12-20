@@ -1,0 +1,27 @@
+.header {
+  @apply flex mt-8 items-center;
+  .column {
+    @apply flex-1
+  }
+}
+
+.fr {
+  @apply ml-16; 
+  .log{
+    @apply h-8
+  }
+}
+
+.md {
+  @apply flex justify-center ;
+  >button{
+    @apply w-48 mx-4 text-xl flex items-center justify-center
+}
+}
+
+.ls {
+  @apply mr-16 flex justify-end;
+  .bt{
+    @apply mx-2
+  }
+}
