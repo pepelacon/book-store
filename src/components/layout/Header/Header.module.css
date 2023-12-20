@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+  padding: 24px 24px 0 48px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column:first-child {
+  text-align: left;
+}
+
+.column:nth-child(2) {
+  text-align: center;
+}
+
+.column:last-child {
+  text-align: right;
+}
+
+.column > h1 {
+  color: blue;
+}
+.column > button {
+  color: blue;
+}
