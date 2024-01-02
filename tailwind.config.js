@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         pickedtype: "#daaa63",
+        shelfcolor: "#EDD5BE",
+        torec_color: "#f8f3ed",
       },
     },
   },

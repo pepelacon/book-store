@@ -1,0 +1,28 @@
+.shelf-container {
+  @apply flex flex-col items-center justify-center w-full h-full relative;
+}
+
+.shelf {
+  @apply flex flex-col items-center justify-center w-full py-3 relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 15px;
+    background-color: rgba(44, 8, 8, 0.5);
+    filter: blur(15px);
+  }
+}
+
+.section {
+  @apply flex w-full bg-shelfcolor h-3 relative transform scale-105;
+  clip-path: polygon(3% 0%, 97% 0%, 100% 100%, 0% 100%);
+  transition: transform 0.3s ease;
+}
+
+.torec {
+  @apply flex w-full h-3 bg-torec_color;
+}

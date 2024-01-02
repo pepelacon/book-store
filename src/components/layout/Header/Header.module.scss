@@ -1,27 +1,30 @@
 .header {
-  @apply flex mt-8 items-center;
+  @apply flex mt-6 items-center;
   .column {
-    @apply flex-1
+    @apply flex-1;
   }
 }
 
 .fr {
-  @apply ml-16; 
-  .log{
-    @apply h-8
+  @apply ml-16;
+  .log {
+    @apply h-6;
   }
 }
 
 .md {
-  @apply flex justify-center ;
-  >button{
-    @apply w-48 mx-4 text-xl flex items-center justify-center
-}
+  @apply flex justify-center;
+  > button {
+    @apply w-48 mx-4 text-lg flex items-center justify-center;
+  }
 }
 
 .ls {
   @apply mr-16 flex justify-end;
-  .bt{
-    @apply mx-2
+  .bt {
+    @apply mx-2;
+    &:hover .icon {
+      @apply shadow-lg shadow-black;
+    }
   }
 }

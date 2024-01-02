@@ -50,10 +50,10 @@ const Header = () => {
       <div className={styles.column}>
         <div className={styles.ls}>
           <button className={styles.bt}>
-            <SlUser color="#36454F" size={25} />
+            <SlUser color="#36454F" size={25} className={styles.icon} />
           </button>
           <button className={styles.bt}>
-            <IoBagOutline color="#36454F" size={25} />
+            <IoBagOutline color="#36454F" size={25} className={styles.icon} />
           </button>
           <img
             className="w-8 ml-2 rounded-full object-cover"
@@ -61,7 +61,11 @@ const Header = () => {
             alt="Profile"
           />
           <button className={styles.bt}>
-            <BsThreeDotsVertical color="#36454F" size={25} />
+            <BsThreeDotsVertical
+              color="#36454F"
+              size={25}
+              className={styles.icon}
+            />
           </button>
         </div>
       </div>
