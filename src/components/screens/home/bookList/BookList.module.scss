@@ -1,0 +1,17 @@
+.bookcarousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.33s ease-in-out;
+}
+
+.bookContainer {
+  flex: 0 0 20%;
+  padding: 0 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}

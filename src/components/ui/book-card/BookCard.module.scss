@@ -1,0 +1,26 @@
+.tilted {
+  transform: rotate(5deg);
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+}
+
+.nontilted {
+  transform: rotate(0deg);
+  cursor: pointer;
+  transition: transform 1s ease-in-out;
+}
+/* .bookContainer {
+  box-shadow: 10px 20x 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+} */
+
+/* .bookContainer::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
